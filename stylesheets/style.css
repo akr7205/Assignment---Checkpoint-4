@@ -1,0 +1,240 @@
+:root {
+    --primary: rgb(35,52,123);
+    --accent: rgb(249,35,77);
+    --textDark: rgb(1,18,45);
+    --textLight: rgb(95,94,101);
+    --textWhite: rgb(255, 255, 255);
+    --bg: rgb(223,236,255)
+  }
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  body {
+      line-height: 1;
+  }
+  ol, ul {
+      list-style: none;
+  }
+  blockquote, q {
+      quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: '';
+      content: none;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  
+  /* My Resets */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  input, textarea,
+  button {
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  /* General */
+  html {
+    font-size: 16px;
+  }
+  body {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+    color: var(--textLight);
+    font-size: 1.4rem;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* Padding */
+  .padding {
+    padding: 5rem 0;
+  }
+  
+  /* Flex */
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  .item-start {
+    align-items: flex-start;
+  }
+  
+  .item-center {
+    align-items: center;
+  }
+  
+  .wrap {
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex-direction: column;
+  }
+  
+  /* Columns */
+  .flex-15 {
+    flex: 0 1 15%;
+  }
+  .flex-20 {
+    flex: 0 1 20%;
+  }
+  .flex-25 {
+    flex: 0 1 25%;
+  }
+  
+  .flex-30 {
+    flex: 0 1 30%;
+  }
+  .flex-40 {
+    flex: 0 1 40%;
+  }
+  
+  .flex-50 {
+    flex: 0 1 50%;
+  }
+  
+  .flex-48 {
+    flex: 0 1 48%;
+  }
+  .flex-60 {
+    flex: 0 1 60%;
+  }
+  
+  .grow {
+    flex: 1 1 auto;
+  }
+  
+  /* Full width */
+  .width-full {
+    width: 100%;
+  }
+  
+  /* Center Elements */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    background-color: var(--accent);
+    color: #ffffff;
+    transition: all 200ms ease-in-out;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+    color: #ffffff !important;
+  }
+  
+  /* Texts */
+  
+  .text-center {
+    text-align: center;
+  }
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-accent {
+    color: var(--accent);
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .font-0 {
+    font-size: 0;
+  }
+  .full-width {
+    width: 100%;
+    object-fit: cover;
+  }
+  .section-heading{
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  .sub-heading{
+      font-size: 1.7rem;
+      font-weight: 700;
+  }
+  /* header  */
+  .header{
+    
+  }
+  .header-nav{
+
+  }
+  .header-nav .brand{
+    
+  }
+  
+  .nav-menu ul li{
+
+  }
